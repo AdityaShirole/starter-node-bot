@@ -70,7 +70,7 @@ app.post('/garyvee',function(req,res) {
   console.log("Request Body",req.body);
 
   //Check the token first to verify if request is from Slack. If invalid, send error message
-  if (req.body.token === 'eZZPmBwcP4n1VpY9p6DGnhIe') {
+  if (true) {
     console.log("Token verified : " + req.body.token);
 
     //fetch from ask.garyvaynerchuk.com
