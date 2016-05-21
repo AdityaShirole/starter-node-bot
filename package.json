@@ -23,6 +23,10 @@
   "homepage": "https://github.com/beepboophq/node-slack-bot#readme",
   "dependencies": {
     "beepboop-botkit": "^1.4.0",
-    "botkit": "~0.1.1"
+    "botkit": "~0.1.1",
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "html-entities": "^1.2.0",
+    "request": "^2.72.0"
   }
 }
