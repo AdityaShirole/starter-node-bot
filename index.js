@@ -18,6 +18,11 @@ app.get('/',function(req,res) {
   res.status(200).send("Hello World");
 });
 
+app.get('/garyvee',function(req,res) {
+  console.log("Body",req.body);
+  res.status(200).send("Hello World");
+});
+
 createSlackResponse = function(body,hits,response_url) {
   var slackResponse = new Object();
   var attachments = [];
